@@ -9,7 +9,7 @@ export class WebRequestService {
   readonly ROOT_URL;
 
   constructor(private http: HttpClient) {
-    this.ROOT_URL = 'http://localhost:4000/api';
+    this.ROOT_URL = 'https://hamed-deployed-nodejs.herokuapp.com/api';
   }
 
   get(uri: string) {
